@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Timer Extension",
+  "version": "1.0",
+  "description": "Displays a timer on webpages with options for 15 and 30 minutes",
+  "content_scripts": [
+    {
+      "matches": ["https://codeforces.com/*"],
+      "js": ["timer.js"]
+    },
+    {
+      "matches": ["https://www.codechef.com/*"],
+      "js": ["timer.js"]
+    },
+    {
+      "matches": ["https://leetcode.com/*"],
+      "js": ["timer.js"]
+    },
+    {
+      "matches": ["https://atcoder.jp/*"],
+      "js": ["timer.js"]
+    }
+  ]
+}
