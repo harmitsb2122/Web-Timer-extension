@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Timer Extension",
   "version": "1.0",
   "description": "Displays a timer on webpages with options for 15 and 30 minutes",
